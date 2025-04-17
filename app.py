@@ -5,7 +5,7 @@ import seaborn as sns
 import altair as alt
 import plotly.express as px
 
-st.set_page_config(page_title="📊 Deals & Tickets Dashboard", layout="wide")
+st.set_page_config(page_title="📊 SymTrain Dashboard", layout="wide")
 
 @st.cache_data
 def load_deals():
